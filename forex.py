@@ -36,8 +36,7 @@ class Graph:
         print("Negative weight cycle found:", " -> ".join(map(str, cycle)))
         print("Weight of the cycle:", cycle_weight)
 
-    # The main function that finds shortest distances from src to
-    # all other vertices using Bellman-Ford algorithm.
+
     def BellmanFord(self, src):
 
         # Step 1: Initialize distances from src to all other vertices as infinite
