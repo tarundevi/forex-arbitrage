@@ -127,7 +127,7 @@ def buildGraphForSelectedCurrencies(api_key, selected_currencies):
 
 # Main function
 if __name__ == "__main__":
-    api_key = "4147bee5e0fa50c7b58d462f"  # Replace with your actual API key
+    api_key = "API-KEY"  # Replace with your actual API key
 
     # Ask user to specify which currencies to include
     selected_currencies = input("Enter the currencies to include (comma-separated, e.g., USD,EUR,JPY): ").split(",")
